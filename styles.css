@@ -26,7 +26,7 @@ a:hover {
 
 /* Section Styles */
 
-.main-nav {
+nav {
   width: 100%;
   background:  black;
   background:  #cb997e;
@@ -162,7 +162,7 @@ h2 {
  
 }
 
-.card3{
+#card3{
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -211,15 +211,40 @@ footer ul li {
   display: inline-block;
 }
 
-a.social {
+.github{
+  background-image: url(images/GITHUB.svg);
   display: inline-block;
   text-indent: -9999px;
   margin-left: 5px;
   width: 30px;
   height: 30px;
   background-size: 30px 30px;
- 
+  opacity: 0.3;
+  transition: transform 250ms;
 }
+
+.github:hover{
+  opacity: 1;
+  transform: translateY(-10px)
+
+}
+.instagram:hover{
+  opacity:1;
+  transform: translateY(-10px)
+}
+.instagram {
+  background-image: url(images/IG.svg);
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: 0.3;
+  transition: transform 250ms;
+}
+
+
 .clearfix {
   clear: both;
 }
